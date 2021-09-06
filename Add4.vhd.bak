@@ -1,0 +1,6 @@
+--Entity
+entity Add4 is port (
+Data1, Data2 : std_logic_vector(3 downto 0);
+Cin ; in std_logic;
+Cout ; out std_logic;
+Sum ; out std_logic_vector(3 downto 0);
